@@ -1,0 +1,30 @@
+.idea
+*.swp
+.gradle
+/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+.gradle
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+#Generated  files
+build
+
+#IDE/Editors
+*.swp
+*.bak
+*.iml
+*.ipr
+*.iws
+*~
+#Ignore logs
+*.log
+
