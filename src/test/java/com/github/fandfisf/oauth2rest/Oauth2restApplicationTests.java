@@ -1,4 +1,4 @@
-package com.example;
+package com.github.fandfisf.oauth2rest;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
