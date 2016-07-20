@@ -19,6 +19,9 @@
 <div class="container" ng-show="home.authenticated">
     Logged in as: <span ng-bind="home.user"></span>
     <div>
+        <button ng-click="home.halBrowser()" class="btn btn-primary">Browse Repo</button>
+    </div>
+    <div>
         <button ng-click="home.logout()" class="btn btn-primary">Logout</button>
     </div>
 </div>    <script type="text/javascript" src="/webjars/angularjs/angular.min.js"></script>
@@ -40,6 +43,9 @@
             console.log("Logout failed")
             self.authenticated = false;
           });
+        };
+        self.halBrowser = function() {
+            window.location.href = '/browser/index.html#/';
         };
       });
     </script>
