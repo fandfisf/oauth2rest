@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="defaults.xml" />
+    <property name="LOG_FILE" value="build/spring.log"/>
+    <include resource="file-appender.xml" />
+    <logger name="com.github.fandfisf.rheastteos">
+        <appender-ref ref="FILE"/>
+    </logger>
+    <root level="DEBUG">
+        <appender-ref ref="SPRING-FILE" />
+    </root>
+</configuration>
